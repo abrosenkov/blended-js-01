@@ -83,6 +83,20 @@
 // console.log(result);
 
 //===================            4
+// Отримуйте від користувача число (кількість хвилин) через prompt
+// і виводьте у консоль рядок у форматі годин та хвилин.
+// Приклад: користувач вводить в prompt '70' -> в консолі відобразиться '01:10'.
+// Корисне посилання для відображення годин та хвилин у потрібному форматі ('01' замість '1'):
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart#examples
+
+// const msg = +prompt("Введіть кількість хвилин");
+// const hours = Math.floor(msg / 60);
+// const minutes = msg % 60;
+// const time = `${String(hours).padStart(2, "0")}:${String(minutes).padStart(
+//   2,
+//   "0"
+// )}`;
+// console.log(time);
 
 //===================            5
 
@@ -118,6 +132,14 @@
 // }
 
 //===================            6
+
+// Використайте цикл while, щоб вивести в console всі числа від 0 до 20 включно.
+
+// let count = 0;
+// while (count <= 20) {
+//   console.log(count);
+//   count++;
+// }
 
 //===================            7
 
